@@ -105,6 +105,7 @@ python itch_fetch.py --appids appids.txt --out-data out.json --format json --fet
 ### CSV
 
 Колонки: `app_id,id,title,original_price,price,tags`
+
 `tags` — строка, теги разделены символом `|`.
 
 ### JSON
