@@ -45,19 +45,19 @@ python itch.py --appids appids.txt --out-data out.csv --concurrency 3 --rps 1.0 
 Сохранить JSON и показать топ-20 тегов:
 
 ```bash
-python itch_fetch.py --appids appids.txt --out-data itch_out.json --format json --tags-top 20
+python itch.py --appids appids.txt --out-data itch_out.json --format json --tags-top 20
 ```
 
 Запуск с тонкой настройкой скорости/параллельности:
 
 ```bash
-python itch_fetch.py --appids appids.txt --out-data out.csv --concurrency 4 --delay 0.5 --rps 1.0
+python itch.py --appids appids.txt --out-data out.csv --concurrency 4 --delay 0.5 --rps 1.0
 ```
 
 Только собрать данные и сохранить (без текста-статистики):
 
 ```bash
-python itch_fetch.py --appids appids.txt --out-data out.json --format json --fetch-only
+python itch.py --appids appids.txt --out-data out.json --format json --fetch-only
 ```
 
 ---
