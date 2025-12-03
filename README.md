@@ -95,7 +95,7 @@ python itch_fetch.py --appids appids.txt --out-data out.json --format json --fet
 
 ### Отчёты / топы
 
-* **`--top <int>`** — сколько записей показывать в секции Top N games by price. **(по умолчанию: `5`)**
+* **`--top <int>`** — сколько записей показывать в секции Top N games by price. **(по умолчанию: `10`)**
 * **`--tags-top <int>`** — сколько тегов показывать в Top tags. **(по умолчанию: `10`)**
 
 ---
